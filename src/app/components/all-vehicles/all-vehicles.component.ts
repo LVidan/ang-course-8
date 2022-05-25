@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IVehicle } from 'src/app/interfaces/i-vehicle';
 
 @Component({
   selector: 'app-all-vehicles',
@@ -11,7 +12,7 @@ export class AllVehiclesComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  allVehiclesData: any[] = [
+  allVehiclesData: IVehicle[] = [
     {
       name: "chevrolet chevelle malibu",
       Miles_per_Gallon: 18,
