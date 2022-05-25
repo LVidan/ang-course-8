@@ -1,5 +1,11 @@
-<h2>List of all vehicles:</h2>
-<hr>
-<ng-container *ngFor="let vehicle of allVehiclesData">
-  <app-vehicles [vehicle]="vehicle"></app-vehicles>
-</ng-container>
+<div class="container">
+  <h2>List of all vehicles:</h2>
+  <hr>
+  <div class="row">
+    <ng-container *ngFor="let vehicle of allVehiclesData">
+      <div class="col-4 mb-4">
+        <app-vehicles [vehicle]="vehicle"></app-vehicles>
+      </div>
+    </ng-container>
+  </div>
+</div>

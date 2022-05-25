@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { VehiclesComponent } from './components/vehicles/vehicles.component';
 import { AllVehiclesComponent } from './components/all-vehicles/all-vehicles.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CategoriesComponent } from './components/categories/categories.componen
     CategoriesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,9 +9,7 @@ export class VehiclesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    console.log(this.vehicle);
-  }
+  ngOnInit(): void { }
 
   @Input() vehicle: any;
 }
